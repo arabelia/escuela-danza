@@ -1,0 +1,39 @@
+/* Inserta tu codigo aqui */
+*{outline:1px solid rgba(255,0,0,0.3);}
+body{width: 98%; margin: auto; text-align: center;}
+.row {margin: auto;}
+
+.titulo{font-size: 20px; font-weight: bold; padding: 15px;}
+.menu{display: inline-block;margin: 10px;}
+.menu a{padding: 3px 20px; text-decoration: none; color: #424242; }
+.l-menu{left: 50%; margin-left: -170px; margin: 4px;}
+/*clases de portada y cuerpo*/
+.portada{position: relative; height:20%;}
+.portada img{max-width: 100%;}
+.estudio{text-align: left; padding: 3% 0 0 3%; position: absolute; top:0; left: 0;}
+.estudio p:first-of-type{font-size: 1.8em; padding: 3% 0; }
+.estudio p:last-of-type{font-size: 0.7em; padding: 3% 0 5%; }
+
+.ofertas{padding: 30px 0;}
+.ofertas p{font-size: 17px; margin:0 12em;}
+.ofertas img{width: 80px; left: 50%; margin-top: -20px;}
+
+.instructores{position: relative;}
+.instructores div{width: 490px; display: inline-block; height: 300px;}
+/*.instructores div:first-of-type{background-image: url("../img/instructor_4.jpg");}*/
+
+.instructores div:first-of-type{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-image: url("../img/instructor_4.jpg"); background-size: cover;}
+.instructores div:last-of-type{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-image: url("../img/profesor_9.jpg"); background-size: cover;}
+.instructores a{position: absolute; bottom:4px; left: 50%; margin-left: -140px; }
+
+.frase{font-size: 2em; padding:2em 3.6em; font-weight: }
+
+.ubicacion div{width: 490px; display: inline-block; height: 280px;}
+.visita{font-weight: 200;text-align: left; padding: 2.6em 10em 2.6em 2.6em;}
+.visita p:first-child{padding-bottom: 1.5em;}
+.visita p:nth-child(2){font-weight: 300; padding: .2em 0; font-size: 1.4em; color: #fff;}
+.mapa{border: 1px solid #333; height: auto; margin: auto;}
+
+
+.pie{text-align: left; margin: 15px 0 10px 10px;}
+

@@ -1,0 +1,23 @@
+/* Inserta tu codigo que es común para todas las páginas aqui */
+.azul-marino{background: #242F54;}
+.azul-oscuro{background: #030D24;}
+.azulino{background: #213770;}
+.gris{background: #333;}
+.texto10{font-size: 10px;}
+.texto11{font-size: 11px;}
+.texto12{font-size: 12px;}
+.texto13{font-size: 13px;}
+.texto14{font-size: 14px;}
+.texto20{font-size: 20px;}
+.t-gris-claro{color: #BDBDBD;}
+.t-gris-oscuro{color: #424242;}
+.resaltado{font-weight: bold;}
+
+.l-sin-estilo{margin: 0; padding: 0; list-style: none;}
+.a-sin-estilo{text-decoration: none;}
+
+.boton {color: #BDBDBD; padding: 8px 30px;margin-top: 10px; font-weight: bold; border: 1px solid #424242; text-decoration: none; font-size: 10px;}
+.boton2 {color: #BDBDBD; padding: 10px 45px;margin-top: 10px; font-weight: bold; border: 1px solid #424242; text-decoration: none; font-size: 12px;}
+.boton3 {color: #BDBDBD; padding: 20px 75px;margin-top: 10px; font-weight: bold; border: 1px solid #424242; text-decoration: none; font-size: 14px;}
+
+
