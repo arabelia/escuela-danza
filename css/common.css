@@ -1,4 +1,13 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
+*{outline:1px solid rgba(255,0,0,0.3);}
+body{width: 98%; margin: auto; text-align: center;}
+.row {margin: auto;}
+
+.titulo{font-size: 20px; font-weight: bold; padding: 15px;}
+.menu{display: inline-block;margin: 10px;}
+.menu a{padding: 3px 20px; text-decoration: none; color: #424242; }
+.l-menu{left: 50%; margin-left: -170px; margin: 4px;}
+
 .azul-marino{background: #242F54;}
 .azul-oscuro{background: #030D24;}
 .azulino{background: #213770;}
@@ -11,6 +20,7 @@
 .texto20{font-size: 20px;}
 .t-gris-claro{color: #BDBDBD;}
 .t-gris-oscuro{color: #424242;}
+.t-azul{color: #030D24;}
 .resaltado{font-weight: bold;}
 
 .l-sin-estilo{margin: 0; padding: 0; list-style: none;}
@@ -21,3 +31,13 @@
 .boton3 {color: #BDBDBD; padding: 20px 75px;margin-top: 10px; font-weight: bold; border: 1px solid #424242; text-decoration: none; font-size: 14px;}
 
 
+
+#commentform input.nombre[type="text"]:focus {
+background-color: #FFF;
+background-position: left center;
+padding-left: 17px;
+width:183px;
+background-image: url("img/arabe.jpg");
+background-repeat: no-repeat;
+
+}

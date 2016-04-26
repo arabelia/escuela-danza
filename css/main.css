@@ -3,10 +3,8 @@
 body{width: 98%; margin: auto; text-align: center;}
 .row {margin: auto;}
 
-.titulo{font-size: 20px; font-weight: bold; padding: 15px;}
-.menu{display: inline-block;margin: 10px;}
-.menu a{padding: 3px 20px; text-decoration: none; color: #424242; }
-.l-menu{left: 50%; margin-left: -170px; margin: 4px;}
+
+
 /*clases de portada y cuerpo*/
 .portada{position: relative; height:20%;}
 .portada img{max-width: 100%;}
@@ -28,12 +26,20 @@ body{width: 98%; margin: auto; text-align: center;}
 
 .frase{font-size: 2em; padding:2em 3.6em; font-weight: }
 
-.ubicacion div{width: 490px; display: inline-block; height: 280px;}
+.ubicacion div{width: 450px; display: inline-block; height: 280px;}
 .visita{font-weight: 200;text-align: left; padding: 2.6em 10em 2.6em 2.6em;}
 .visita p:first-child{padding-bottom: 1.5em;}
 .visita p:nth-child(2){font-weight: 300; padding: .2em 0; font-size: 1.4em; color: #fff;}
 .mapa{border: 1px solid #333; height: auto; margin: auto;}
 
+.contacto{position: relative; text-align: left;width: 100%; height: 320px;}
+.contacto img{width: 460px; float: right;}
+.contacto h3{padding: 1px 10px;}
+
+.formulario{position: absolute; top:0; left: 0; margin-left: 8px;}
+.formulario p{padding: 4px 0;}
 
 .pie{text-align: left; margin: 15px 0 10px 10px;}
+
+input[type="submit"] { font-family: FontAwesome; } 
 

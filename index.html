@@ -8,17 +8,18 @@
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
 <header>
-	<div class="row titulo">ESCUELA DE DANZA</div>
+	<div class="row titulo t-azul">ESCUELA DE DANZA</div>
 	<div class="row">
 		<ul class="l-menu">
-			<li class="menu"><a href="">Nosotros</a></li>
-			<li class="menu"><a href="">Clases</a></li>
-			<li class="menu"><a href="">Blog</a></li>
-			<li class="menu"><a href="">Contactanos</a></li>
+			<li class="menu"><a href="nosotros.html">Nosotros</a></li>
+			<li class="menu"><a href="clases.html">Clases</a></li>
+			<li class="menu"><a href="blog.html">Blog</a></li>
+			<li class="menu"><a href="file:///C:/Users/ARABELIA/Documents/LABORATORIA%20REPOSITORIOS/escuela-danza/index.html#contacto">Contactanos</a></li>
 		</ul>
 	</div>
 	<div class="portada ">
@@ -58,11 +59,33 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12085.86501096204!2d-73.98501728505515!3d40.773762741772444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585ff9df2f6d%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses!2spe!4v1461346521806" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</div><!--final de ubicacion-->
-	<div class="row contacto"><!--añadir imagen de fondo en css-->
-		<div class="col-6">
-			<h3>Contactanos</h3>
+	<div id="contacto" class="row contacto"><!--añadir imagen de fondo en css-->
+		<img src="img/shoes_!.jpg" alt="">
+		<div class="col-6 formulario">
+			<h3 class="t-azul">Contactanos</h3>
+		
 			<!--anadir lista de contactoque contenga al boton enviar-->
-
+			<form  action="index.html" method="get">
+		
+				<p>
+					<label for="name"></label>
+					<span class="fa fa-user"></span>
+					<input type="text" id="name"  name="nombre" placeholder="Nombre" size="30" required>
+				</p>
+			    <p>
+					<label for="mail"></label>
+					<span class="fa fa-envelope"></span>
+					<input type="email" id="mail" name="email" placeholder="Email" size="30" required>
+				</p>
+				<p><input type="submit" class="search" value="&#xf002;" placeholder="Email" size="30" /> </p>
+			    <p>
+					<label for="msg"></label>
+					<span class="fa fa-pencil"></span>
+					<textarea name="mensaje" id="msg" placeholder="Mensaje" cols="30" rows="8" required></textarea>
+				</p>
+				<button class="boton3 azulino" type="submit">ENVIAR</button>
+			</form>
+			
 		</div>
 	</div><!--final de contacto-->
 </section>	
