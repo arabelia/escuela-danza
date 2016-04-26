@@ -1,1 +1,11 @@
 /* Inserta tu codigo aqui */
+.portada-nosotros{ height:380px; background-image: url("../img/dance_7.jpg"); background-position: 0px -95px;}
+.portada-nosotros img{max-width: 100%;}
+
+.estudio-nosotros{width: 400px; opacity: 0.5; text-align: center; padding: 3%;  position: absolute; margin-left: 50%; left:-220px; top: 230px;}
+.estudio-nosotros p:first-of-type{font-size: 1.2em; padding: 1% 0; margin-right: 20px; }
+.estudio p:last-of-type{font-size: 0.3em; padding: 1% 0; padding-right: 60px;}
+
+.pilares{background: #D8D8D8; }
+.pilar{width: 150px; display: inline-block;}
+

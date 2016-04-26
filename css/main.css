@@ -1,14 +1,10 @@
 /* Inserta tu codigo aqui */
-*{outline:1px solid rgba(255,0,0,0.3);}
-body{width: 98%; margin: auto; text-align: center;}
-.row {margin: auto;}
-
 
 
 /*clases de portada y cuerpo*/
-.portada{position: relative; height:20%;}
+.portada{height:350px; background-image: url("../img/dance_1.jpg"); background-position: -10px -30px; background-size: contain;}
 .portada img{max-width: 100%;}
-.estudio{text-align: left; padding: 3% 0 0 3%; position: absolute; top:0; left: 0;}
+.estudio{text-align: left; padding: 3% 0 0 3%;}
 .estudio p:first-of-type{font-size: 1.8em; padding: 3% 0; }
 .estudio p:last-of-type{font-size: 0.7em; padding: 3% 0 5%; }
 

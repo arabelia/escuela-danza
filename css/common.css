@@ -12,6 +12,8 @@ body{width: 98%; margin: auto; text-align: center;}
 .azul-oscuro{background: #030D24;}
 .azulino{background: #213770;}
 .gris{background: #333;}
+.negro{background: #111;}
+
 .texto10{font-size: 10px;}
 .texto11{font-size: 11px;}
 .texto12{font-size: 12px;}
@@ -21,6 +23,8 @@ body{width: 98%; margin: auto; text-align: center;}
 .t-gris-claro{color: #BDBDBD;}
 .t-gris-oscuro{color: #424242;}
 .t-azul{color: #030D24;}
+.t-blanco{color: #fff;}
+
 .resaltado{font-weight: bold;}
 
 .l-sin-estilo{margin: 0; padding: 0; list-style: none;}
