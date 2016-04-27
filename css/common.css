@@ -3,7 +3,7 @@
 body{width: 98%; margin: auto; text-align: center;}
 .row {margin: auto;}
 
-.titulo{font-size: 20px; font-weight: bold; padding: 15px;}
+.titulo{font-size: 20px; font-weight: bold; padding: 25px; color: #030D24;}
 .menu{display: inline-block;margin: 10px;}
 .menu a{padding: 3px 20px; text-decoration: none; color: #424242; }
 .l-menu{left: 50%; margin-left: -170px; margin: 4px;}
@@ -34,14 +34,6 @@ body{width: 98%; margin: auto; text-align: center;}
 .boton2 {color: #BDBDBD; padding: 10px 45px;margin-top: 10px; font-weight: bold; border: 1px solid #424242; text-decoration: none; font-size: 12px;}
 .boton3 {color: #BDBDBD; padding: 20px 75px;margin-top: 10px; font-weight: bold; border: 1px solid #424242; text-decoration: none; font-size: 14px;}
 
+.frase{font-size: 2em; width: 600px; text-align: center; margin: 40px 0; color: #030D24; }
 
-
-#commentform input.nombre[type="text"]:focus {
-background-color: #FFF;
-background-position: left center;
-padding-left: 17px;
-width:183px;
-background-image: url("img/arabe.jpg");
-background-repeat: no-repeat;
-
-}
+.pie{text-align: left; margin: 15px 0 10px 10px;}

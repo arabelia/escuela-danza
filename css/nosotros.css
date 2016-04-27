@@ -6,6 +6,26 @@
 .estudio-nosotros p:first-of-type{font-size: 1.2em; padding: 1% 0; margin-right: 20px; }
 .estudio p:last-of-type{font-size: 0.3em; padding: 1% 0; padding-right: 60px;}
 
-.pilares{background: #D8D8D8; }
-.pilar{width: 150px; display: inline-block;}
+.pilares{background-image: url("../img/cubes.png"); }
+.pilar{width: 280px; display: inline-block;}
+.pilar ul{ margin: 2em; }
+.pilar ul li:first-of-type{border-bottom: 1px solid #333; padding: 10px 0;}
+.pilar li{padding: 2% 0;}
+.pilar span{font-weight: bold;}
+
+.instructores{padding: 30px 0 50px;}
+.instructor{width: 220px; display: inline-block;padding: 15px; text-align: left;}
+.instructor p:first-of-type{font-weight: bold; padding: 4px 0; }
+.instructor p:last-of-type{font-size: 12px; }
+.instructor div{width: 190px; height: 160px;}
+.i1{background-image: url("../img/profesor_4.jpg"); background-size: cover; }
+.i2{background-image: url("../img/profesor_14.jpg"); background-size: cover; }
+.i3{background-image: url("../img/profesor_1.jpg"); background-size: cover; }
+.i4{background-image: url("../img/profesor_10.jpg"); background-size: cover; }
+.i5{background-image: url("../img/profesor_11.jpg"); background-size: cover; }
+.i6{background-image: url("../img/profesor_12.jpg"); background-size: cover; }
+.i7{background-image: url("../img/profesor_9.jpg"); background-size: cover; }
+.i8{background-image: url("../img/profesor_15.jpg"); background-size: cover; }
+
+.mot-nosotros{background-image: url("../img/cubes.png");}
 

@@ -20,7 +20,7 @@
 .instructores div:last-of-type{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-image: url("../img/profesor_9.jpg"); background-size: cover;}
 .instructores a{position: absolute; bottom:4px; left: 50%; margin-left: -140px; }
 
-.frase{font-size: 2em; padding:2em 3.6em; font-weight: }
+.motivacion{background-image: url("../img/textura_2.jpg");}
 
 .ubicacion div{width: 450px; display: inline-block; height: 280px;}
 .visita{font-weight: 200;text-align: left; padding: 2.6em 10em 2.6em 2.6em;}
@@ -35,7 +35,6 @@
 .formulario{position: absolute; top:0; left: 0; margin-left: 8px;}
 .formulario p{padding: 4px 0;}
 
-.pie{text-align: left; margin: 15px 0 10px 10px;}
 
-input[type="submit"] { font-family: FontAwesome; } 
+
 
