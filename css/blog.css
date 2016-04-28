@@ -1,1 +1,16 @@
 /* Inserta tu codigo aqui */
+.cuerpo-blog{background-image: url("../img/cubes.png");}
+.post{margin: 3em;padding: 1em; background: #E1DFF2; text-align: left; width:80%;}
+.titulo-blog{padding: 2em 0 1em;}
+.titulo-blog span{font-weight: bold;}
+.titulo-art{padding: 2px 0; font-weight: bold;}
+.articulo{display:inline-block; width: 400px;}
+.art{padding: 5px 4px 8px; text-align: justify; float: none; font-size: 11px; margin-bottom: 1em;}
+.boton4{margin: 4px 0; text-align: center; padding: 4px 30px; color: #fff; background: #213770; text-decoration: none;}
+.post1{display: inline-block; width: 180px; height: 130px; background-image: url("../img/blog1.jpg"); background-size: cover; padding-right: 10px;}
+.post2{display: inline-block; width: 180px; height: 130px; background-image: url("../img/profesor_5jpg.jpg"); background-size: cover; padding-right: 10px;}
+.post3{display: inline-block; width: 180px; height: 130px; background-image: url("../img/instructor_1.jpg"); background-size: cover; padding-right: 10px;}
+
+
+
+
