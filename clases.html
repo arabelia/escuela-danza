@@ -11,5 +11,54 @@
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
+<header>
+	<div class="row titulo">ESCUELA DE DANZA</div>
+	<div class="row">
+		<ul class="l-menu">
+			<li class="menu"><a href="index.html">Inicio</a></li>
+			<li class="menu"><a href="nosotros.html">Nosotros</a></li>
+			<li class="menu"><a href="clases.html">Clases</a></li>
+			<li class="menu"><a href="blog.html">Blog</a></li>
+			<li class="menu"><a href="file:///C:/Users/ARABELIA/Documents/LABORATORIA%20REPOSITORIOS/escuela-danza/index.html#contacto">Contactanos</a></li>
+		</ul>
+	</div>
+
+
+</header>
+<section>
+	<div id="contacto" class="row contacto"><!--añadir imagen de fondo en css-->
+		
+		<div class="col-6 formulario">
+			<h3 class="t-azul">Contactanos</h3>
+		
+			<!--anadir lista de contactoque contenga al boton enviar-->
+			<form  action="index.html" method="get">
+		
+				<p>
+					<label><i class="fa fa-user i-nombre" aria-hidden="true"></i></label>
+					<input type="text" id="name"  name="nombre" placeholder="         Nombre" size="38" required>
+				</p>
+			    <p>
+					<label for="mail"></label>
+					<span class="fa fa-envelope i-mail"></span>
+					<input type="email" id="mail" name="email" placeholder="         Email" size="38" required>
+				</p>
+			
+			    <p>
+					<label for="msg"></label>
+					<span class="fa fa-pencil i-sms"></span>
+					<textarea name="mensaje" id="msg" placeholder="       Mensaje" cols="37" rows="6" required></textarea>
+				</p>
+				<button class="boton3 azulino" type="submit">ENVIAR</button>
+			</form>
+			
+		</div>
+	</div><!--final de contacto-->
+</section>
+<footer>
+	<div class="row azulino">
+		<p  class="pie t-gris-claro texto10">© Escuela de Danza. Todos los derechos reservados.</p>
+	</div>
+</footer>
 </body>
 </html>
