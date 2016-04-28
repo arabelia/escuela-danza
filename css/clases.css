@@ -1,1 +1,40 @@
-/* Inserta tu codigo aqui */
+body{
+	background:	#E0E0E0;
+}
+.container{
+	margin:0 auto;
+}
+.row {
+	height: 400px;
+	}
+.row >div{
+	display:inline-block;
+	width: 260px;
+	height: 350px;
+	margin: 20px 10px;
+}
+.row img{
+	display:inline-block;
+	width: 100%;
+	height: 350px;
+}
+
+.row .dentro{
+	width: 200px;
+	height: 95px;
+	background: rgba(0, 0, 0, .3);
+	position: relative;
+	bottom: 225px;
+	left:40px;
+	font-size: 12px;
+	padding:5px;
+	color:rgba(255,255,255,.3);
+	opacity:0.3;
+	}
+.row .dentro:hover{
+	color: rgba(0, 0, 0, 0.1);
+	color:rgba(255,255,255,1);
+	background-color: rgba(0, 0, 0, .5);
+	opacity: 1;
+
+}
