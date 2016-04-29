@@ -1,6 +1,3 @@
-/* Inserta tu codigo aqui */
-
-
 /*clases de portada y cuerpo*/
 .portada{height:350px; background-image: url("../img/dance_1.jpg"); background-position: -10px -30px; background-size: cover;}
 
@@ -29,5 +26,6 @@
 .visita{font-weight: 200;text-align: left; padding: 0em 8em 2.0em .2em; display: inline-block; }
 .visita p:first-child{padding-bottom: 1.0em;}
 .visita p:nth-child(2){font-weight: 300; padding: .2em 0; font-size: 1.4em; color: #fff;}
+
 
 

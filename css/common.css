@@ -1,8 +1,4 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
-<<<<<<< HEAD
-=======
-/**{outline:1px solid rgba(255,0,0,0.3);}*/
->>>>>>> 9ddc3833022e5a34cf24f0adb79e76c115b032d4
 
 body{width: 98%; margin: auto; text-align: center;}
 .row {margin: auto;}
@@ -40,6 +36,20 @@ body{width: 98%; margin: auto; text-align: center;}
 .boton3 {color: #BDBDBD; padding: 15px 95px;margin-top: 10px; font-weight: bold; border: 1px solid #424242; text-decoration: none; font-size: 14px;}
 
 .frase{font-size: 2em; width: 600px; text-align: center; padding: 40px 0; color: #030D24;  }
+
+.contacto{position: relative; text-align: left;width: 100%; }
+.contacto img{width: 460px; float: right;}
+.contacto h3{padding: 15px 10px;}
+.contacto{height:350px; background-image: url("../img/shoes_!.jpg"); background-position: -10px -30px; background-size: contain; background-repeat: no-repeat; background-position: right;   }
+
+
+.formulario{position: relative; margin-left: 8px;}
+.formulario p{padding: 4px 0;}
+.i-nombre{position: absolute; left: 20px; top: 60px; color: #BDBDBD;}
+.i-mail{position: absolute; left: 20px; top: 86px; color: #BDBDBD;}
+.i-sms{position: absolute; left: 20px; top: 115px; color: #BDBDBD;}
+
+.pie{text-align: left; margin: 15px 0 10px 10px;}
 
 .contacto{position: relative; text-align: left;width: 100%; }
 .contacto img{width: 460px; float: right;}
