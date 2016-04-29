@@ -16,6 +16,7 @@
 	<div class="row titulo">ESCUELA DE DANZA</div>
 	<div class="row">
 		<ul class="l-menu">
+			<li class="menu"><a href="index.html">Inicio</a></li>
 			<li class="menu"><a href="nosotros.html">Nosotros</a></li>
 			<li class="menu"><a href="clases.html">Clases</a></li>
 			<li class="menu"><a href="blog.html">Blog</a></li>
@@ -33,18 +34,19 @@
 
 </header>
 
-<section>
+<section class="cuerpo-blog">
 	<div class="ofertas t-gris-oscuro">
 		<p class=".t-gris-claro">Juliart cuenta ccon una amplia trayectoria y reputacion, brindando una formacion de excelencia a cientos de amantes de la danza.</p>
 		<img src="img/decoration_1.png" alt="Decoracion"><br>
 		<a class="boton2 azul-marino" href="">Ofertas de Clases</a>
 	</div><!--final de ofertas-->	
-	<div class="row instructores">
+	<div class="row instructores azulino">
 		<div></div><div></div>
 		<a class="boton3 azulino" href="">Nuestros instructores</a>
 	</div><!--final de nstructores-->
-	<div class="row motivacion">
-		<div class="frase"><em>"La danza es un poema en el que cada movimiento es una palabra."</em></div>
+	<div class="row motivacion  ">
+		<br>
+		<em class="frase">"La danza es un poema en el que cada movimiento es una palabra."</em>
 	</div><!--final de frase-->
 	<div class="row ubicacion azulino t-gris-claro texto11">
 		<div class="visita">
@@ -57,11 +59,13 @@
 		</div>
 		<div class="mapa">
 			<!--ubicar mapa aqui-->
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12085.86501096204!2d-73.98501728505515!3d40.773762741772444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585ff9df2f6d%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses!2spe!4v1461346521806" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d57488.766772777446!2d-74.01389804178386!3d40.77563472970847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x89c2585ff9df2f6d%3A0xf876ccebba645bff!2sthe+juilliard+school!3m2!1d40.773758699999995!2d-73.98282859999999!4m3!3m2!1d40.7778973!2d-73.95605189999999!5e0!3m2!1ses!2s!4v1461811059918" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
+
 	</div><!--final de ubicacion-->
+
 	<div id="contacto" class="row contacto"><!--añadir imagen de fondo en css-->
-		<img src="img/shoes_!.jpg" alt="">
+		
 		<div class="col-6 formulario">
 			<h3 class="t-azul">Contactanos</h3>
 		
@@ -69,19 +73,19 @@
 			<form  action="index.html" method="get">
 		
 				<p>
-					<label><i class="fa fa-user" aria-hidden="true"></i></label>
-					<input type="text" id="name"  name="nombre" placeholder="Nombre" size="30" required>
+					<label><i class="fa fa-user i-nombre" aria-hidden="true"></i></label>
+					<input type="text" id="name"  name="nombre" placeholder="         Nombre" size="38" required>
 				</p>
 			    <p>
 					<label for="mail"></label>
-					<span class="fa fa-envelope"></span>
-					<input type="email" id="mail" name="email" placeholder="Email" size="30" required>
+					<span class="fa fa-envelope i-mail"></span>
+					<input type="email" id="mail" name="email" placeholder="         Email" size="38" required>
 				</p>
 			
 			    <p>
 					<label for="msg"></label>
-					<span class="fa fa-pencil"></span>
-					<textarea name="mensaje" id="msg" placeholder="Mensaje" cols="30" rows="8" required></textarea>
+					<span class="fa fa-pencil i-sms"></span>
+					<textarea name="mensaje" id="msg" placeholder="       Mensaje" cols="37" rows="6" required></textarea>
 				</p>
 				<button class="boton3 azulino" type="submit">ENVIAR</button>
 			</form>
@@ -95,6 +99,5 @@
 		<p  class="pie t-gris-claro texto10">© Escuela de Danza. Todos los derechos reservados.</p>
 	</div>
 </footer>
-
 </body>
 </html>
